@@ -7,7 +7,7 @@ public class UserService
 {
 	String jdbcURL = "jdbc:mysql://localhost:3306/webseries_db";
     private String jdbcUsername = "root";
-    private String jdbcPassword = "abhinav2005";
+    private String jdbcPassword = "password";
 
     private static final String SELECT_USER_BY_USERNAME_AND_PASSWORD = "SELECT id, username, password FROM users WHERE username = ? AND password = ?";
     
